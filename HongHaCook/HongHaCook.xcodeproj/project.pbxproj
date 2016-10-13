@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		96475B8A1DAF7BEF001539FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96475B891DAF7BEF001539FE /* main.m */; };
 		96475B8D1DAF7BEF001539FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96475B8C1DAF7BEF001539FE /* AppDelegate.m */; };
-		96475B901DAF7BEF001539FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96475B8F1DAF7BEF001539FE /* ViewController.m */; };
-		96475B931DAF7BEF001539FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96475B911DAF7BEF001539FE /* Main.storyboard */; };
 		96475B951DAF7BEF001539FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96475B941DAF7BEF001539FE /* Assets.xcassets */; };
 		96475B981DAF7BEF001539FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96475B961DAF7BEF001539FE /* LaunchScreen.storyboard */; };
 		96475BA31DAF7BEF001539FE /* HongHaCookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96475BA21DAF7BEF001539FE /* HongHaCookTests.m */; };
 		96475BAE1DAF7BEF001539FE /* HongHaCookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96475BAD1DAF7BEF001539FE /* HongHaCookUITests.m */; };
+		96475BDF1DAF7C58001539FE /* JYCommunityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96475BBF1DAF7C58001539FE /* JYCommunityController.m */; };
+		96475BE01DAF7C58001539FE /* JYMessagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96475BC41DAF7C58001539FE /* JYMessagerController.m */; };
+		96475BE11DAF7C58001539FE /* JYMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96475BC81DAF7C58001539FE /* JYMineController.m */; };
+		96475BE21DAF7C58001539FE /* JYStoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96475BCC1DAF7C58001539FE /* JYStoreController.m */; };
+		96475BE31DAF7C58001539FE /* JYStudyCookController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96475BD01DAF7C58001539FE /* JYStudyCookController.m */; };
+		96475BE41DAF7C58001539FE /* JYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96475BD31DAF7C58001539FE /* JYTabBarController.m */; };
+		96475BE61DAF7C58001539FE /* JYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96475BDB1DAF7C58001539FE /* JYNavigationController.m */; };
+		96475BE71DAF7C58001539FE /* UIColor+JYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 96475BDE1DAF7C58001539FE /* UIColor+JYExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +43,8 @@
 /* Begin PBXFileReference section */
 		96475B851DAF7BEF001539FE /* HongHaCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HongHaCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96475B891DAF7BEF001539FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		96475B8B1DAF7BEF001539FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		96475B8C1DAF7BEF001539FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		96475B8E1DAF7BEF001539FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		96475B8F1DAF7BEF001539FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		96475B921DAF7BEF001539FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96475B8B1DAF7BEF001539FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		96475B8C1DAF7BEF001539FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		96475B941DAF7BEF001539FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96475B971DAF7BEF001539FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96475B991DAF7BEF001539FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +54,24 @@
 		96475BA91DAF7BEF001539FE /* HongHaCookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HongHaCookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96475BAD1DAF7BEF001539FE /* HongHaCookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HongHaCookUITests.m; sourceTree = "<group>"; };
 		96475BAF1DAF7BEF001539FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96475BBE1DAF7C58001539FE /* JYCommunityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCommunityController.h; sourceTree = "<group>"; };
+		96475BBF1DAF7C58001539FE /* JYCommunityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCommunityController.m; sourceTree = "<group>"; };
+		96475BC31DAF7C58001539FE /* JYMessagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYMessagerController.h; sourceTree = "<group>"; };
+		96475BC41DAF7C58001539FE /* JYMessagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYMessagerController.m; sourceTree = "<group>"; };
+		96475BC71DAF7C58001539FE /* JYMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYMineController.h; sourceTree = "<group>"; };
+		96475BC81DAF7C58001539FE /* JYMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYMineController.m; sourceTree = "<group>"; };
+		96475BCB1DAF7C58001539FE /* JYStoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYStoreController.h; sourceTree = "<group>"; };
+		96475BCC1DAF7C58001539FE /* JYStoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYStoreController.m; sourceTree = "<group>"; };
+		96475BCF1DAF7C58001539FE /* JYStudyCookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYStudyCookController.h; sourceTree = "<group>"; };
+		96475BD01DAF7C58001539FE /* JYStudyCookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYStudyCookController.m; sourceTree = "<group>"; };
+		96475BD21DAF7C58001539FE /* JYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTabBarController.h; sourceTree = "<group>"; };
+		96475BD31DAF7C58001539FE /* JYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTabBarController.m; sourceTree = "<group>"; };
+		96475BD71DAF7C58001539FE /* JYBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBasic.h; sourceTree = "<group>"; };
+		96475BDA1DAF7C58001539FE /* JYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYNavigationController.h; sourceTree = "<group>"; };
+		96475BDB1DAF7C58001539FE /* JYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYNavigationController.m; sourceTree = "<group>"; };
+		96475BDD1DAF7C58001539FE /* UIColor+JYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JYExtension.h"; sourceTree = "<group>"; };
+		96475BDE1DAF7C58001539FE /* UIColor+JYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JYExtension.m"; sourceTree = "<group>"; };
+		96475BE81DAF7C69001539FE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +122,9 @@
 		96475B871DAF7BEF001539FE /* HongHaCook */ = {
 			isa = PBXGroup;
 			children = (
-				96475B8B1DAF7BEF001539FE /* AppDelegate.h */,
-				96475B8C1DAF7BEF001539FE /* AppDelegate.m */,
-				96475B8E1DAF7BEF001539FE /* ViewController.h */,
-				96475B8F1DAF7BEF001539FE /* ViewController.m */,
-				96475B911DAF7BEF001539FE /* Main.storyboard */,
-				96475B941DAF7BEF001539FE /* Assets.xcassets */,
-				96475B961DAF7BEF001539FE /* LaunchScreen.storyboard */,
-				96475B991DAF7BEF001539FE /* Info.plist */,
+				96475BBB1DAF7C58001539FE /* Classes */,
+				96475BD41DAF7C58001539FE /* Main */,
+				96475BD81DAF7C58001539FE /* Others */,
 				96475B881DAF7BEF001539FE /* Supporting Files */,
 			);
 			path = HongHaCook;
@@ -118,6 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				96475B891DAF7BEF001539FE /* main.m */,
+				96475B991DAF7BEF001539FE /* Info.plist */,
+				96475BE81DAF7C69001539FE /* PrefixHeader.pch */,
+				96475B941DAF7BEF001539FE /* Assets.xcassets */,
+				96475B961DAF7BEF001539FE /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +158,158 @@
 				96475BAF1DAF7BEF001539FE /* Info.plist */,
 			);
 			path = HongHaCookUITests;
+			sourceTree = "<group>";
+		};
+		96475BBB1DAF7C58001539FE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				96475BBC1DAF7C58001539FE /* Community */,
+				96475BC01DAF7C58001539FE /* LoginRegister */,
+				96475BC11DAF7C58001539FE /* Message */,
+				96475BC51DAF7C58001539FE /* Mine */,
+				96475BC91DAF7C58001539FE /* Store */,
+				96475BCD1DAF7C58001539FE /* StudyCook */,
+				96475BD11DAF7C58001539FE /* TabBar */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		96475BBC1DAF7C58001539FE /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				96475BBD1DAF7C58001539FE /* Controller */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		96475BBD1DAF7C58001539FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96475BBE1DAF7C58001539FE /* JYCommunityController.h */,
+				96475BBF1DAF7C58001539FE /* JYCommunityController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96475BC01DAF7C58001539FE /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		96475BC11DAF7C58001539FE /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				96475BC21DAF7C58001539FE /* Controller */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		96475BC21DAF7C58001539FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96475BC31DAF7C58001539FE /* JYMessagerController.h */,
+				96475BC41DAF7C58001539FE /* JYMessagerController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96475BC51DAF7C58001539FE /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				96475BC61DAF7C58001539FE /* Controller */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		96475BC61DAF7C58001539FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96475BC71DAF7C58001539FE /* JYMineController.h */,
+				96475BC81DAF7C58001539FE /* JYMineController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96475BC91DAF7C58001539FE /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				96475BCA1DAF7C58001539FE /* Controller */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		96475BCA1DAF7C58001539FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96475BCB1DAF7C58001539FE /* JYStoreController.h */,
+				96475BCC1DAF7C58001539FE /* JYStoreController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96475BCD1DAF7C58001539FE /* StudyCook */ = {
+			isa = PBXGroup;
+			children = (
+				96475BCE1DAF7C58001539FE /* Controller */,
+			);
+			path = StudyCook;
+			sourceTree = "<group>";
+		};
+		96475BCE1DAF7C58001539FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96475BCF1DAF7C58001539FE /* JYStudyCookController.h */,
+				96475BD01DAF7C58001539FE /* JYStudyCookController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96475BD11DAF7C58001539FE /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				96475BD21DAF7C58001539FE /* JYTabBarController.h */,
+				96475BD31DAF7C58001539FE /* JYTabBarController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		96475BD41DAF7C58001539FE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				96475BD71DAF7C58001539FE /* JYBasic.h */,
+				96475B8B1DAF7BEF001539FE /* AppDelegate.h */,
+				96475B8C1DAF7BEF001539FE /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		96475BD81DAF7C58001539FE /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				96475BD91DAF7C58001539FE /* Base */,
+				96475BDC1DAF7C58001539FE /* Catory */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		96475BD91DAF7C58001539FE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				96475BDA1DAF7C58001539FE /* JYNavigationController.h */,
+				96475BDB1DAF7C58001539FE /* JYNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		96475BDC1DAF7C58001539FE /* Catory */ = {
+			isa = PBXGroup;
+			children = (
+				96475BDD1DAF7C58001539FE /* UIColor+JYExtension.h */,
+				96475BDE1DAF7C58001539FE /* UIColor+JYExtension.m */,
+			);
+			path = Catory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +423,6 @@
 			files = (
 				96475B981DAF7BEF001539FE /* LaunchScreen.storyboard in Resources */,
 				96475B951DAF7BEF001539FE /* Assets.xcassets in Resources */,
-				96475B931DAF7BEF001539FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +447,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96475B901DAF7BEF001539FE /* ViewController.m in Sources */,
 				96475B8D1DAF7BEF001539FE /* AppDelegate.m in Sources */,
+				96475BE41DAF7C58001539FE /* JYTabBarController.m in Sources */,
+				96475BDF1DAF7C58001539FE /* JYCommunityController.m in Sources */,
 				96475B8A1DAF7BEF001539FE /* main.m in Sources */,
+				96475BE21DAF7C58001539FE /* JYStoreController.m in Sources */,
+				96475BE01DAF7C58001539FE /* JYMessagerController.m in Sources */,
+				96475BE71DAF7C58001539FE /* UIColor+JYExtension.m in Sources */,
+				96475BE31DAF7C58001539FE /* JYStudyCookController.m in Sources */,
+				96475BE61DAF7C58001539FE /* JYNavigationController.m in Sources */,
+				96475BE11DAF7C58001539FE /* JYMineController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +492,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		96475B911DAF7BEF001539FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96475B921DAF7BEF001539FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		96475B961DAF7BEF001539FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -426,7 +596,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TQFY26M7SD;
+				GCC_PREFIX_HEADER = HongHaCook/PrefixHeader.pch;
 				INFOPLIST_FILE = HongHaCook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.2wei.HongHaCook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,7 +610,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TQFY26M7SD;
+				GCC_PREFIX_HEADER = HongHaCook/PrefixHeader.pch;
 				INFOPLIST_FILE = HongHaCook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.2wei.HongHaCook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
